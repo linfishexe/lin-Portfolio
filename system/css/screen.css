@@ -1,0 +1,49 @@
+.screen {
+    width: 100%;
+    height: 85%;
+    background-color: #ffffff;
+    border: 10px solid var(--maincolor);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/*-------------------------------*/
+.doctor {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: none;
+}
+
+.doctor .information {
+    width: 70%;
+    height: 70%;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 25%;
+    display: flex;
+}
+
+.doctor h1 {
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    z-index: 1;
+}
+
+.doctor img {
+    background-color: #ffffff;
+    position: relative;
+}
+
+.doctor .doc_infor {
+    width:  50%;
+    background-color: #ffffff;
+    border: 1px solid var(--maincolor);
+    position: relative;
+    top: 35px;
+}
+.doctor .doc_infor td{
+    padding: 5px;
+    background-color: #dbdbe5;
+}
